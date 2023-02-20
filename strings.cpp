@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-using namespace std; //you can ommit this line but you have to write std::cout or std::cin instead of cout and cin
+using namespace std; 
+//you can ommit this line but you have to write std::cout or std::cin instead of cout and cin
 
 int main(){
     //initialize a string value
