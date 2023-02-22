@@ -12,7 +12,7 @@ when you define an object, you also can define the methods and attributes to be 
 */
 
 //to make a class, you will initialize it with class
-class myClass { //name of class
+class MyClass { //name of class
 	public: //access specifier, public saying you can access the calss outside of the class, more on this later
 		int myNum; //attribute
 		string myString; //attribute
@@ -20,7 +20,7 @@ class myClass { //name of class
 
 int main() {
 	//an object is an instance of the class, to initialize an object, use the class name and then your object name
-	myClass obj1;
+	MyClass obj1;
 
 	//to access attributes and set values, use .
 	obj1.myNum = 15;
